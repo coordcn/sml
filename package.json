@@ -1,0 +1,26 @@
+{
+  "name": "sml",
+  "description": "Simple Markup Language ",
+  "main": "./index",
+  "author": "Qian Ye <coordcn@163.com>",
+  "version": "0.1.0",
+  "keywords": [
+    "sml",
+    "jade",
+    "haml",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coordcn/sml.git"
+  },
+  "bugs":{
+    "url": "https://github.com/coordcn/sml/issues"
+  },
+  "licenses": [
+    {
+      "type": "The MIT License (MIT)",
+      "url": "https://github.com/coordcn/sml/blob/master/LICENSE"
+    }
+  ]
+}
