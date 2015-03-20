@@ -16,24 +16,24 @@
 
 ####doctype
 
-  !doctype
+    !doctype
   
-  !doctype html
+    !doctype html
   
-  !doctype custem value
+    !doctype custem value
 
 ####tag(attributes)
 
-  !a 这是一个链接
+    !a 这是一个链接
   
-  !a(id="a" class='b' disabled) 这仍然是个链接
+    !a(id="a" class='b' disabled) 这仍然是个链接
   
-  - var cls = 'cls';
+    \- var cls = 'cls';
 
-  !a(id="#{it.id}" class='!{cls}') 这还是一个链接
+    !a(id="#{it.id}" class='!{cls}') 这还是一个链接
   
 ####text
-  !p 这里可以是文字，#{it.content1}这里是转义替换文本。
+    !p 这里可以是文字，#{it.content1}这里是转义替换文本。
   
     新起一行，加两个空格这又是一行文本。
     
@@ -42,7 +42,7 @@
 ####comment 只支持行注释，以//开头都视为注释
 
 ####code 全部为javascript原生代码，以-开头的行都视为代码行。代码的正确性自行保证。
-  - var name = value;
+    \- var name = value;
   
 
 
